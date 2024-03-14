@@ -1,5 +1,5 @@
 import { GrantBody, Issuer } from "openid-client";
-import { withCache } from "./token-cache";
+import { withCache } from "../token-cache";
 import { withPrometheus } from "./prometheus";
 import { stripBearer } from "../strip-bearer";
 

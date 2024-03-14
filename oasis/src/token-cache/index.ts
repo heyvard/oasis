@@ -1,7 +1,7 @@
 import { JWTPayload, decodeJwt } from "jose";
 import { createHash } from "node:crypto";
 import SieveCache from "./cache";
-import { OboProvider, OboResult } from "..";
+import { OboProvider, OboResult } from "../obo";
 
 function sha256(content: string): string {
   return createHash("sha256").update(content).digest("hex");
