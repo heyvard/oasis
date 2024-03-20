@@ -5,6 +5,10 @@ export {
   OboResult,
 } from "./obo";
 export {
+  requestAzureClientCredentialsToken,
+  ClientCredentialsResult,
+} from "./client-credentials";
+export {
   validateToken,
   validateAzureToken,
   validateIdportenToken,
